@@ -200,7 +200,7 @@ html, body {
   }   
   
   #togglePanel {
-    transform: 
+    left: 150px;
   }; 
 
   
