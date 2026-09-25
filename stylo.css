@@ -199,9 +199,9 @@ html, body {
     max-width: 50vw; 
   }   
   
-  #togglePanel {
-    left: 149px;
-  }; 
+  #togglePanel.open {
+  left: 150px;
+  }  
 
   
 }
