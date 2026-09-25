@@ -84,9 +84,10 @@ client.on('message', (topic, payloadBuf) => {
 });
 
 const nodes = {
-
   node1: { label: 'node1', name: 'INTA AER Villa Regina 1', lat: -39.0977, lon: -67.0973 },
-  node2: { label: 'node2', name: 'INTA AER Villa Regina 2', lat: -39.0976, lon: -67.0974 } 
+  node2: { label: 'node2', name: 'INTA AER Villa Regina 2', lat: -39.0976, lon: -67.0974 },
+  node3: { label: 'node3', name: 'E.E.A. Alto Valle', lat: -39.0235, lon: -67.7362 }, 
+  node4: { label: 'node4', name: 'Centro Regional Patagonia Sur', lat: -43.2532, lon: -65.3109 }  
 };
 
 const mapCenter = [-67.1116, -39.1027]; // [lon, lat] 
