@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Red de Sensores</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+
+  <div id="map"></div>
+
+  <button id="togglePanel">☰</button>
+  <aside id="panel">
+    <header id="panel-header">
+      <h1>Red de sensores del valle</h1>
+      <p id="connection-status" class="status status--connecting">Conectando...</p>
+    </header>
+    <div id="node-list"><!-- node cards are rendered by app.js --></div>
+  </aside>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/mqtt@5.10.1/dist/mqtt.min.js"></script>
+  <script src="test.js"></script>
+</body>
+
+</html>
